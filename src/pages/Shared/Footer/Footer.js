@@ -7,13 +7,13 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="mt-5 footer-container">
-      <Container>
+      <Container className="text-center">
         <Row xs={1} md={2} lg={4} className="justify-content-center">
           <Col>
             <div>
               <h5 className="footer-title">We are Socail</h5>
               <p>FOLLOW US</p>
-              <ul className="list-unstyled d-flex justify-content-start align-items-center">
+              <ul className="list-unstyled d-flex justify-content-center align-items-center">
                 <li>
                   <img src={instagram} alt="" />
                 </li>

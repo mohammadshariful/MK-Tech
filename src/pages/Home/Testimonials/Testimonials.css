@@ -1,0 +1,26 @@
+.testimonila-container {
+  background-color: #fff;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.user-img-container {
+  width: 100%;
+  margin: 0 20px;
+}
+.user-img-container img {
+  width: 300px;
+  height: 100%;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 576px) {
+  .user-img-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .user-img-container img {
+    border-radius: 50%;
+  }
+}
