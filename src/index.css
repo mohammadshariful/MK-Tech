@@ -14,3 +14,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Common styles */
+.section-title {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: #404040;
+  top: 50%;
+  left: 0;
+  z-index: -2;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: #404040;
+  top: 50%;
+  right: 0;
+  z-index: -2;
+}
+
+.section-title span {
+  background-color: #f2f2f2;
+}

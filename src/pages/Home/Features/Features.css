@@ -1,0 +1,19 @@
+.feature {
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+.icon-img {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid #b6b1b1;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.feature-btn {
+  border: 0;
+  background-color: #644f9c;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
