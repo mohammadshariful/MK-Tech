@@ -13,7 +13,7 @@ const Menubar = () => {
       sticky="top"
     >
       <Container>
-        <Navbar.Brand className=" d-lg-none" href="#home">
+        <Navbar.Brand>
           <img src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

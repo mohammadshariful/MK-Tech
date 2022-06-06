@@ -1,0 +1,13 @@
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.navigation-link {
+  padding: 6px 16px;
+  border: 1px solid #644f9c;
+  border-radius: 8px;
+}
