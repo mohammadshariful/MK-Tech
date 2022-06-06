@@ -1,0 +1,30 @@
+.business-summary-container {
+  background-color: #644f9c;
+  padding: 30px 0;
+}
+.business-summary-container h2 {
+  color: #fff;
+}
+.summary {
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: 1px dotted #fff;
+  border-radius: 50%;
+}
+.summary h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 576px) {
+  .summary {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+  }
+  .summary h3 {
+    font-size: 25px;
+  }
+}
