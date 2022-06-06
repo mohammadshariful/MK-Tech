@@ -1,0 +1,17 @@
+.login-btn-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 8px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.my-btn {
+  border: none;
+  background-color: transparent;
+}
+.signup-btn {
+  background-color: #ff6f00;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
