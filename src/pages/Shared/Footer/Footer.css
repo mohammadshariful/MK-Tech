@@ -1,0 +1,14 @@
+.footer-container {
+  background-color: #fff;
+  padding: 20px 0;
+}
+.footer-title {
+  color: #644f9c;
+}
+.footer-container ul li {
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer-container ul li:hover {
+  color: #644f9c;
+}
