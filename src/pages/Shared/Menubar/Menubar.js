@@ -5,15 +5,21 @@ import CustomLink from "../CustomLink/CustomLink";
 import "./Menubar.css";
 const Menubar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <Container fluid>
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="light"
+      variant="light"
+      sticky="top"
+    >
+      <Container>
         <Navbar.Brand className=" d-lg-none" href="#home">
           <img src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className=" d-flex justify-content-center align-items-center">
-            <CustomLink to="/home">HOME</CustomLink>
+            <CustomLink to="">HOME</CustomLink>
             <CustomLink to="">ADVERTISERS</CustomLink>
             <CustomLink to="">PUBLISHERS</CustomLink>
             <CustomLink to="">INFLUENCERS</CustomLink>
