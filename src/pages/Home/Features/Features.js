@@ -9,21 +9,18 @@ const Features = () => {
   const features = [
     {
       _id: 1,
-      title: "Text 1",
+      title: "Marketing Base",
       icon: speaker,
-      btnName: "Hello 1",
     },
     {
       _id: 2,
-      title: "Text 2",
+      title: "Consulting Services",
       icon: email,
-      btnName: "Hello 2",
     },
     {
       _id: 3,
-      title: "Text 3",
+      title: "Creative Ideas",
       icon: user,
-      btnName: "Hello 3",
     },
   ];
   return (
@@ -31,9 +28,10 @@ const Features = () => {
       <h2 className="section-title">
         <span>AVAILABLE FOR EVERYONE</span>
       </h2>
-      <p className="text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam
-        consequuntur facere laudantium, pariatur dolorem doloremque
+      <p className="text-center fs-5">
+        There are lots of reasons why people need advice from a financial
+        adviser but there are also lots of different types of advisers, so it`s
+        worth knowing who to go to and when.
       </p>
       <Row xs={1} md={2} lg={3} className="justify-content-center">
         {features.map((feature) => (

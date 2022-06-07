@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import facebook from "../../../assets/icons/facebook.png";
 import instagram from "../../../assets/icons/instagram.png";
+import logo from "../../../assets/icons/logo.png";
 import youtube from "../../../assets/icons/youtube.png";
 import "./Footer.css";
 const Footer = () => {
@@ -24,7 +25,9 @@ const Footer = () => {
                   <img src={youtube} alt="" />
                 </li>
               </ul>
-              <h2>LOGO</h2>
+              <div className="d-flex align-items-center justify-content-center mb-2">
+                <img src={logo} alt="" /> <span className="ms-2">AdCorp</span>
+              </div>
             </div>
           </Col>
           <Col>

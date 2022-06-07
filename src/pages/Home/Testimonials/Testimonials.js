@@ -16,19 +16,22 @@ const Testimonials = () => {
       _id: 1,
       img: user1,
       name: "Rayhan",
-      description: "",
+      description:
+        "Offers a variety of current methods to advertise in the current market.Good overview to learn about new modalities, and the thinking behind each of the options for communications",
     },
     {
       _id: 2,
       img: user2,
       name: "Siddik",
-      description: "",
+      description:
+        "It is informative and, personally, helping me to understand the importance of utilizing the best method(s) to utilize the market for expanding a product, service, or brand in our current world of mass (and I do mean MASS) media.",
     },
     {
       _id: 3,
       img: user3,
       name: "Albert",
-      description: "",
+      description:
+        "AdCrop has advertisers that are usually not available on other platforms.The rates aren't always the best since they are a reseller.",
     },
   ];
   return (
@@ -72,12 +75,7 @@ const Testimonials = () => {
               </div>
               <div className="mt-3">
                 <h4>{testimoni.name}</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nulla quae cumque quam veniam alias necessitatibus! Unde
-                  labore eligendi ipsa suscipit libero iure, fuga quasi in
-                  molestiae consequatur voluptates dicta obcaecati?
-                </p>
+                <p>{testimoni.description}</p>
               </div>
             </div>
           </SwiperSlide>

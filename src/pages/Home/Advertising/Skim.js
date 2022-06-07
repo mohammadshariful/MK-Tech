@@ -8,7 +8,7 @@ const Skim = () => {
         <img className="img-fluid rounded" src={skimAd} alt="banner" />
       </div>
       <div className="w-100 w-lg-50 m-3">
-        <h2>Skim Ad</h2>
+        <h2 className="subtitle">Skim Ad</h2>
         <p>
           SKIM is a link that a publisher inserts on the specific website
           element text, image/icon, link or video, and after clicking on it, an

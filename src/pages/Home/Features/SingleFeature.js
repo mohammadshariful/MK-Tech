@@ -8,7 +8,7 @@ const SingleFeature = ({ feature }) => {
         <img className="icon-img" src={feature?.icon} alt="" />
         <h3 className="my-3">{feature?.title}</h3>
         <button className="feature-btn" type="btn">
-          {feature?.btnName}
+          Learn More
         </button>
       </div>
     </Col>

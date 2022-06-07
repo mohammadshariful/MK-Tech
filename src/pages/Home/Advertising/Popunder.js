@@ -8,7 +8,7 @@ const Popunder = () => {
         <img className="img-fluid rounded" src={popunder} alt="banner" />
       </div>
       <div className="w-100 w-lg-50 m-3">
-        <h2>Pop-Under Ad</h2>
+        <h2 className="subtitle">Pop-Under Ad</h2>
         <p>
           The pop-under ad is the sneakier relative of the pop-up ad. While
           pop-up ads are often shown (and closed) instantly, pop-under ads

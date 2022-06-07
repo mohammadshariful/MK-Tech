@@ -13,13 +13,13 @@ const Menubar = () => {
       sticky="top"
     >
       <Container>
-        <Navbar.Brand>
-          <img src={logo} alt="" />
+        <Navbar.Brand className="d-flex align-items-center">
+          <img src={logo} alt="" /> <span className="ms-2">AdCorp</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className=" d-flex justify-content-center align-items-center">
-            <CustomLink to="">HOME</CustomLink>
+            <CustomLink to="/">HOME</CustomLink>
             <CustomLink to="">ADVERTISERS</CustomLink>
             <CustomLink to="">PUBLISHERS</CustomLink>
             <CustomLink to="">INFLUENCERS</CustomLink>

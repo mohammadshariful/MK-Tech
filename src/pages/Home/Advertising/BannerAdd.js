@@ -8,7 +8,7 @@ const BannerAdd = () => {
         <img className="img-fluid rounded" src={bannerAd} alt="banner" />
       </div>
       <div className="w-100 w-lg-50 m-3">
-        <h2>Banner Ad</h2>
+        <h2 className="subtitle">Banner Ad</h2>
         <p>
           Banners are the creative rectangular ad that are shown along the top,
           side, or bottom of a website in hopes that it will drive traffic to

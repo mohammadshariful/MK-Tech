@@ -8,7 +8,7 @@ const Native = () => {
         <img className="img-fluid rounded" src={nativeAd} alt="banner" />
       </div>
       <div className="w-100 w-lg-50 m-3">
-        <h2>Native Ad</h2>
+        <h2 className="subtitle">Native Ad</h2>
         <p>
           Native advertising is paid media designed to match the content of a
           media source. An example of mobile native advertising would be paid
